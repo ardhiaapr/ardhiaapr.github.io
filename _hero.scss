@@ -20,14 +20,27 @@
 	width: 40%;
 }
 
-.img-hero {
-	background-image: url('https://uploads-ssl.webflow.com/6086aa76051961eba7319a10/6086aa760519619fc8319a3c_pexels-alesia-kozik-6639756.jpg');
+.img-ovr {
+	background-color: rgba(0, 0, 0, 0.3);
 	position: absolute;
 	top: 0%;
 	width: 100vw;
 	height: 100%;
 	min-height: 100%;
 	min-width: 100%;
-	background-position: 50% 0%;
+	background-position: 100% 50%;
+	background-size: cover;
+	z-index: 2;
+}
+
+.img-hero {
+	background-image: url('https://images.pexels.com/photos/534362/pexels-photo-534362.jpeg');
+	position: absolute;
+	top: 0%;
+	width: 100vw;
+	height: 100%;
+	min-height: 100%;
+	min-width: 100%;
+	background-position: 100% 50%;
 	background-size: cover;
 }

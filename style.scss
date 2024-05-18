@@ -5,10 +5,42 @@ html {
 	font-size: 17px;
 }
 
-* {
+body {
 	font-family: 'kudrashev-display', sans-serif;
+	background-color: #fffefa;
 }
 
-body {
-	background-color: #fffefa;
+.contact {
+	font-family: "Roboto", sans-serif !important;
+	background-color: #f7f8fb;
+	overflow-x: hidden;
+	.text {
+		width: 45%;
+	}
+	a {
+		width: fit-content;
+		text-decoration: none;
+		.cta {
+			border-radius: 100%;
+			background-color: #000;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			transition: .3s;
+			&:hover {
+				transform: scale(1.2);
+			}
+		}
+	}
+	.bottom {
+		.icon {
+			width: 25%;
+			a {
+				i {
+					font-size: 2rem;
+					color: #bebebe;
+				}
+			}
+		}
+	}
 }

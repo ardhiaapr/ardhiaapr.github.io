@@ -7,6 +7,8 @@
 		<script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 		<link href="style.css" rel="stylesheet" />
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
 		<style>
 			.swiper {
 				width: 100%;
@@ -37,16 +39,17 @@
 
 	<body>
 		<div>
-			<h1 class="text-5xl md:text-7xl xl:text-9xl md:w-8/12 relative text-center mx-auto mt-60 z-10">DESIGNED BY WOMEN, FOR WOMEN</h1>
+			<h1 class="text-5xl md:text-7xl xl:text-7xl md:w-8/12 relative text-center mx-auto mt-60 z-10">DESIGNED BY EXPERIENCES, PORTFOLIO OF ARDHIA
+				</h1>
 			<div class="hero-content-wrapper relative flex flex-col items-center justify-center">
 				<div class="img-hero-container z-0">
+					<div class="img-ovr"></div>
 					<div class="img-hero"></div>
 				</div>
-				<div class="flex flex-col w-8/12 mx-auto z-10 relative text-white pb-32">
-					<h3 class="text-3xl md:text-7xl md:w-7/12 my-16">WE CREATE COLLECTIONS TO MAKE OUR BODIES LOOK GLORIOUS</h3>
-					<p class="text-sm w-5/12 font-sans float-rigth self-end">
-						BECAUSE WE HAVE TAUGHT OURSELVES EVERYTHING WE KNOW, WHAT WE ARE OFFERING YOU TODAY IS REALLY WHAT WE DO BEST, AND WE ALSO FIRMLY
-						BELIEVE THAT TOMORROW WILL BE EVEN MORE BEAUTIFUL. THE BEST IS YET TO BE WRITTEN, WITH YOU.
+				<div class="flex flex-col w-8/12 mx-auto z-10 relative text-white pb-32 pl-8">
+					<h3 class="text-3xl md:text-5xl md:w-7/12 mt-16 my-32">UNLEASHING BOUNDLESS CREATIVITY AND DIVERSITY WITHIN MY PORTFOLIO, EVERY COLLECTION BECOMES A MASTERPIECE THAT CAPTIVATES THE SENSES AND SPARKS INSPIRATION.</h3>
+					<p class="text-md w-5/12 font-sans float-rigth self-end italic">
+						"we are surrounded by data but starved for insights - jay baer"
 					</p>
 				</div>
 			</div>
@@ -76,6 +79,33 @@
 				</div>
 			</div>
 		</div>
+		<div class="contact font-mono">
+			<div class="top p-32">
+				<div class="flex justify-between">
+					<div class="text self-center text-7xl font-bold">
+						<span>Let's</span>
+						<span>Collaborate</span>
+					</div>
+					<a href="mailto:bayuuat@gmail.com">
+						<div class="cta w-52 h-52">
+							<p class="text-xl text-white">Email Me!</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="bottom">
+				<hr />
+				<div class="row flex justify-between py-8 px-32">
+					<p class="self-center">&copy; 2024 Ardhia Aprilia Dewi. All Rights Reserved</p>
+					<div class="icon flex justify-between">
+						<a target="_blank" href="https://www.instagram.com/ardhiaapr/"><i class="bi bi-instagram"></i></a>
+						<a target="_blank" href="mailto:ardhiaapriliadewi@gmail.com"><i class="bi bi-envelope"></i></a>
+						<a target="_blank" href="https://www.linkedin.com/in/ardhiaapriliadewi/"><i class="bi bi-linkedin"></i></a>
+						<a target="_blank" href="https://github.com/ardhiaapr"><i class="bi bi-github"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
 		<script
 			src="https://code.jquery.com/jquery-3.6.0.slim.js"
 			integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
@@ -99,6 +129,9 @@
 					},
 				},
 				loop: true,
+				mousewheel: {
+					releaseOnEdges: true,
+				},
 			});
 		</script>
 		<script src="app.js"></script>
