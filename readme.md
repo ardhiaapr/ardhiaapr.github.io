@@ -1,7 +1,13 @@
-Personal Website by Bayu Aditya T.
+# Aria Template
 
-LIST UPDATE YANG BISA DILAKUKAN:
+This is a personal blog, portfolio, or blog template created for [Astro](https://astro.build).
 
-1. Buat dark mode
-2. Feat Work Scroll bisa dibuat tengah dengan cara sticky dibungkus lalu di align-center
-3. Taruh resume di web
+Astro port of [aria](https://github.com/static-templates/aria).
+
+![Aria Template Cover Photo](https://github.com/ccbikai/astro-aria/blob/main/public/assets/images/cover.png?raw=true)
+
+You can install this theme with the [Astro](https://astro.build) command like so:
+
+```js
+npm create astro@latest -- --template ccbikai/astro-aria
+```
